@@ -1,0 +1,48 @@
+
+
+.FilterPanel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .FilterPanel input[type="text"],
+  .FilterPanel select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .FilterPanel button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .FilterPanel button:hover {
+    background-color: #0056b3;
+  }
+  
+  .FilterPanel button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .FilterPanel label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  

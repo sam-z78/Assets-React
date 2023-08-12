@@ -1,0 +1,3 @@
+export const FETCH_ASSETS = 'FETCH_ASSETS';
+export const FILTER_ASSETS = 'FILTER_ASSETS';
+export const EDIT_CROWN_JEWEL = 'EDIT_CROWN_JEWEL';
